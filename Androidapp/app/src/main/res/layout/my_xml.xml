@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转得到"
+        android:textSize="30sp"
+        />
+//星级评分条
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingbar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:isIndicator="false"-->
+<!--        android:numStars="5"-->
+<!--        android:rating="2.0"-->
+<!--        android:stepSize="1.0"-->
+<!--        />-->
+<!--    <RatingBar-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/rating_two"-->
+<!--        style="@style/roomRatingBar"-->
+<!--        />-->
 
+<!--    ScrollView(滚动条)
+
+ScrollView(滚动条)，或者我们应该叫他 竖直滚动条，
+对应的另外一个水平方向上的滚动条：HorizontalScrollView，
+-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_up"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="向上"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/btn_down"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="向下"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+<!--    <ScrollView-->
+<!--        android:id="@+id/scrollViewone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/scrollViewTestViewone"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#A5BCE5"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+<!--    Date & Time组件(上)
+
+        TextClock(文本时钟)
+-->
+
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="MM/dd/yy h:mmaa"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="MMM/dd,yyyy h:mmaa"-->
+<!--        android:timeZone="北京"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="MMMM dd,yyyy h:mmaa"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="E, MMMM dd, yyyy h:mmaa"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="EEEE, MMMM dd, yyyy h:mmaa"-->
+<!--        />-->
+<!--    <TextClock-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:format12Hour="Noteworthy day: 'M/d/yy"-->
+<!--        />-->
 </LinearLayout>
